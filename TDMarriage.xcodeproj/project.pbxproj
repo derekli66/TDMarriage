@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		715A9C4D164BFFE300829942 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715A9C4C164BFFE300829942 /* UIKit.framework */; };
+		715A9C4F164BFFE300829942 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715A9C4E164BFFE300829942 /* Foundation.framework */; };
+		715A9C51164BFFE300829942 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715A9C50164BFFE300829942 /* CoreGraphics.framework */; };
+		715A9C57164BFFE300829942 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 715A9C55164BFFE300829942 /* InfoPlist.strings */; };
+		715A9C59164BFFE300829942 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A9C58164BFFE300829942 /* main.m */; };
+		715A9C5D164BFFE300829942 /* TDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A9C5C164BFFE300829942 /* TDAppDelegate.m */; };
+		715A9C5F164BFFE300829942 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 715A9C5E164BFFE300829942 /* Default.png */; };
+		715A9C61164BFFE300829942 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 715A9C60164BFFE300829942 /* Default@2x.png */; };
+		715A9C63164BFFE300829942 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 715A9C62164BFFE300829942 /* Default-568h@2x.png */; };
+		715A9C66164BFFE300829942 /* TDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A9C65164BFFE300829942 /* TDViewController.m */; };
+		715A9C69164BFFE300829942 /* TDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715A9C67164BFFE300829942 /* TDViewController.xib */; };
+		715A9C85164C011100829942 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 715A9C7E164C011100829942 /* CoreData.xcdatamodeld */; };
+		715A9C86164C011100829942 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A9C82164C011100829942 /* CoreDataManager.m */; };
+		715A9C87164C011100829942 /* NSManagedObjectContext-EasyFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A9C84164C011100829942 /* NSManagedObjectContext-EasyFetch.m */; };
+		715A9C89164C017700829942 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715A9C88164C017700829942 /* CoreData.framework */; };
+		715A9C8C164C029B00829942 /* TDGuest.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A9C8B164C029B00829942 /* TDGuest.m */; };
+		715A9C9B164C0CA200829942 /* NSFileManager+PlistHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A9C9A164C0CA200829942 /* NSFileManager+PlistHandler.m */; };
+		715A9C9D164C0D3700829942 /* guestList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 715A9C9C164C0D3700829942 /* guestList.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		715A9C48164BFFE300829942 /* TDMarriage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDMarriage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		715A9C4C164BFFE300829942 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		715A9C4E164BFFE300829942 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		715A9C50164BFFE300829942 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		715A9C54164BFFE300829942 /* TDMarriage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TDMarriage-Info.plist"; sourceTree = "<group>"; };
+		715A9C56164BFFE300829942 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		715A9C58164BFFE300829942 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		715A9C5A164BFFE300829942 /* TDMarriage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TDMarriage-Prefix.pch"; sourceTree = "<group>"; };
+		715A9C5B164BFFE300829942 /* TDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDAppDelegate.h; sourceTree = "<group>"; };
+		715A9C5C164BFFE300829942 /* TDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDAppDelegate.m; sourceTree = "<group>"; };
+		715A9C5E164BFFE300829942 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		715A9C60164BFFE300829942 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		715A9C62164BFFE300829942 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		715A9C64164BFFE300829942 /* TDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDViewController.h; sourceTree = "<group>"; };
+		715A9C65164BFFE300829942 /* TDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDViewController.m; sourceTree = "<group>"; };
+		715A9C68164BFFE300829942 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TDViewController.xib; sourceTree = "<group>"; };
+		715A9C7F164C011100829942 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		715A9C80164C011100829942 /* CoreDataConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataConstants.h; sourceTree = "<group>"; };
+		715A9C81164C011100829942 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		715A9C82164C011100829942 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		715A9C83164C011100829942 /* NSManagedObjectContext-EasyFetch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext-EasyFetch.h"; sourceTree = "<group>"; };
+		715A9C84164C011100829942 /* NSManagedObjectContext-EasyFetch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext-EasyFetch.m"; sourceTree = "<group>"; };
+		715A9C88164C017700829942 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		715A9C8A164C029B00829942 /* TDGuest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDGuest.h; sourceTree = "<group>"; };
+		715A9C8B164C029B00829942 /* TDGuest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDGuest.m; sourceTree = "<group>"; };
+		715A9C99164C0CA100829942 /* NSFileManager+PlistHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+PlistHandler.h"; sourceTree = "<group>"; };
+		715A9C9A164C0CA200829942 /* NSFileManager+PlistHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+PlistHandler.m"; sourceTree = "<group>"; };
+		715A9C9C164C0D3700829942 /* guestList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = guestList.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		715A9C45164BFFE300829942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715A9C89164C017700829942 /* CoreData.framework in Frameworks */,
+				715A9C4D164BFFE300829942 /* UIKit.framework in Frameworks */,
+				715A9C4F164BFFE300829942 /* Foundation.framework in Frameworks */,
+				715A9C51164BFFE300829942 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		715A9C3D164BFFE300829942 = {
+			isa = PBXGroup;
+			children = (
+				715A9C88164C017700829942 /* CoreData.framework */,
+				715A9C52164BFFE300829942 /* TDMarriage */,
+				715A9C4B164BFFE300829942 /* Frameworks */,
+				715A9C49164BFFE300829942 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		715A9C49164BFFE300829942 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				715A9C48164BFFE300829942 /* TDMarriage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		715A9C4B164BFFE300829942 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				715A9C4C164BFFE300829942 /* UIKit.framework */,
+				715A9C4E164BFFE300829942 /* Foundation.framework */,
+				715A9C50164BFFE300829942 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		715A9C52164BFFE300829942 /* TDMarriage */ = {
+			isa = PBXGroup;
+			children = (
+				715A9C99164C0CA100829942 /* NSFileManager+PlistHandler.h */,
+				715A9C9A164C0CA200829942 /* NSFileManager+PlistHandler.m */,
+				715A9C7D164C011100829942 /* CoreData */,
+				715A9C5B164BFFE300829942 /* TDAppDelegate.h */,
+				715A9C5C164BFFE300829942 /* TDAppDelegate.m */,
+				715A9C64164BFFE300829942 /* TDViewController.h */,
+				715A9C65164BFFE300829942 /* TDViewController.m */,
+				715A9C67164BFFE300829942 /* TDViewController.xib */,
+				715A9C53164BFFE300829942 /* Supporting Files */,
+			);
+			path = TDMarriage;
+			sourceTree = "<group>";
+		};
+		715A9C53164BFFE300829942 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				715A9C54164BFFE300829942 /* TDMarriage-Info.plist */,
+				715A9C55164BFFE300829942 /* InfoPlist.strings */,
+				715A9C58164BFFE300829942 /* main.m */,
+				715A9C5A164BFFE300829942 /* TDMarriage-Prefix.pch */,
+				715A9C5E164BFFE300829942 /* Default.png */,
+				715A9C60164BFFE300829942 /* Default@2x.png */,
+				715A9C62164BFFE300829942 /* Default-568h@2x.png */,
+				715A9C9C164C0D3700829942 /* guestList.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		715A9C7D164C011100829942 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				715A9C7E164C011100829942 /* CoreData.xcdatamodeld */,
+				715A9C8A164C029B00829942 /* TDGuest.h */,
+				715A9C8B164C029B00829942 /* TDGuest.m */,
+				715A9C80164C011100829942 /* CoreDataConstants.h */,
+				715A9C81164C011100829942 /* CoreDataManager.h */,
+				715A9C82164C011100829942 /* CoreDataManager.m */,
+				715A9C83164C011100829942 /* NSManagedObjectContext-EasyFetch.h */,
+				715A9C84164C011100829942 /* NSManagedObjectContext-EasyFetch.m */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		715A9C47164BFFE300829942 /* TDMarriage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 715A9C6C164BFFE300829942 /* Build configuration list for PBXNativeTarget "TDMarriage" */;
+			buildPhases = (
+				715A9C44164BFFE300829942 /* Sources */,
+				715A9C45164BFFE300829942 /* Frameworks */,
+				715A9C46164BFFE300829942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDMarriage;
+			productName = TDMarriage;
+			productReference = 715A9C48164BFFE300829942 /* TDMarriage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		715A9C3F164BFFE300829942 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TD;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "LEE CHIEN-MING";
+			};
+			buildConfigurationList = 715A9C42164BFFE300829942 /* Build configuration list for PBXProject "TDMarriage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 715A9C3D164BFFE300829942;
+			productRefGroup = 715A9C49164BFFE300829942 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				715A9C47164BFFE300829942 /* TDMarriage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		715A9C46164BFFE300829942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715A9C57164BFFE300829942 /* InfoPlist.strings in Resources */,
+				715A9C5F164BFFE300829942 /* Default.png in Resources */,
+				715A9C61164BFFE300829942 /* Default@2x.png in Resources */,
+				715A9C63164BFFE300829942 /* Default-568h@2x.png in Resources */,
+				715A9C69164BFFE300829942 /* TDViewController.xib in Resources */,
+				715A9C9D164C0D3700829942 /* guestList.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		715A9C44164BFFE300829942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715A9C59164BFFE300829942 /* main.m in Sources */,
+				715A9C5D164BFFE300829942 /* TDAppDelegate.m in Sources */,
+				715A9C66164BFFE300829942 /* TDViewController.m in Sources */,
+				715A9C85164C011100829942 /* CoreData.xcdatamodeld in Sources */,
+				715A9C86164C011100829942 /* CoreDataManager.m in Sources */,
+				715A9C87164C011100829942 /* NSManagedObjectContext-EasyFetch.m in Sources */,
+				715A9C8C164C029B00829942 /* TDGuest.m in Sources */,
+				715A9C9B164C0CA200829942 /* NSFileManager+PlistHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		715A9C55164BFFE300829942 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				715A9C56164BFFE300829942 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		715A9C67164BFFE300829942 /* TDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				715A9C68164BFFE300829942 /* en */,
+			);
+			name = TDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		715A9C6A164BFFE300829942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		715A9C6B164BFFE300829942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		715A9C6D164BFFE300829942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDMarriage/TDMarriage-Prefix.pch";
+				INFOPLIST_FILE = "TDMarriage/TDMarriage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		715A9C6E164BFFE300829942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDMarriage/TDMarriage-Prefix.pch";
+				INFOPLIST_FILE = "TDMarriage/TDMarriage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		715A9C42164BFFE300829942 /* Build configuration list for PBXProject "TDMarriage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715A9C6A164BFFE300829942 /* Debug */,
+				715A9C6B164BFFE300829942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		715A9C6C164BFFE300829942 /* Build configuration list for PBXNativeTarget "TDMarriage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715A9C6D164BFFE300829942 /* Debug */,
+				715A9C6E164BFFE300829942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		715A9C7E164C011100829942 /* CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				715A9C7F164C011100829942 /* CoreData.xcdatamodel */,
+			);
+			currentVersion = 715A9C7F164C011100829942 /* CoreData.xcdatamodel */;
+			path = CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 715A9C3F164BFFE300829942 /* Project object */;
+}
